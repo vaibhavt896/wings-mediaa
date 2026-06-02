@@ -27,13 +27,13 @@ export default function ContactDirect() {
             hello@wingsmediaa.com
           </a>
           <p className="mt-s2 font-mono text-[11px] tracking-[0.14em] uppercase text-mute">
-            For project briefs, partnerships, press.
+            For detailed briefs and partnerships.
           </p>
         </div>
 
         <div>
           <div className="font-mono text-[11px] tracking-[0.16em] uppercase text-mute mb-s2">
-            WhatsApp
+            WhatsApp <span className="text-crimson normal-case tracking-[0.04em]">(fastest)</span>
           </div>
           <a
             href="https://wa.me/919999999999"
@@ -42,26 +42,26 @@ export default function ContactDirect() {
             className="font-display font-bold text-d-m text-bone tracking-[-0.01em] hover:text-crimson border-b border-mute hover:border-crimson transition-colors duration-200 inline-block leading-[1.2]"
             data-cur="link"
           >
-            +91 99 999 99999
+            +91 99999 99999
           </a>
           <p className="mt-s2 font-mono text-[11px] tracking-[0.14em] uppercase text-mute">
-            Mumbai working hours. Faster than email for short things.
+            The quickest way to reach us. Usually a reply within a few hours.
           </p>
         </div>
       </div>
 
-      {/* Calendly-style direct slot */}
+      {/* Call slot */}
       <div className="border-t border-hair pt-s7 flex flex-col gap-s4">
         <div className="font-mono text-[11px] tracking-[0.16em] uppercase text-mute">
-          OR · BOOK A CALL
+          OR · CALL
         </div>
         <p className="text-body-m text-bone/75 leading-[1.55] max-w-[40ch]">
-          25 minutes with one of the founders. No deck, no agenda — just a conversation about
-          whether we&apos;re a fit.
+          Prefer to talk? Reach us in working hours. The first conversation is free, direct, and
+          zero-pressure.
         </p>
         <div>
-          <Button variant="secondary" href="https://cal.com/wingsmediaa/intro" external>
-            Reserve a slot →
+          <Button variant="secondary" href="tel:+919999999999" external>
+            +91 99999 99999
           </Button>
         </div>
       </div>
@@ -71,14 +71,14 @@ export default function ContactDirect() {
         <div className="flex items-center gap-s3">
           <span className="pulse-dot w-1.5 h-1.5 rounded-full bg-crimson" aria-hidden />
           <span>
-            <LiveClock className="text-bone tabular-nums" /> · MUMBAI
+            <LiveClock className="text-bone tabular-nums" /> · KANPUR
           </span>
         </div>
         <div className="text-mute normal-case tracking-[0.04em] max-w-[40ch]">
-          Studio A · 3rd floor · Bandra West · Mumbai 400050
+          Tilak Nagar, Kanpur, Uttar Pradesh. By appointment.
         </div>
         <div className="text-mute normal-case tracking-[0.04em] max-w-[40ch]">
-          C-103 · DLF Phase 2 · Gurugram 122002
+          Working with brands across India.
         </div>
       </div>
     </aside>

@@ -6,7 +6,7 @@ import ContactDirect from '@/components/contact/ContactDirect';
 export const metadata: Metadata = {
   title: 'Contact',
   description:
-    'Start a project with Wings Mediaa. Send a brief or book a 25-minute call with one of the founders.',
+    'Tell us about your brand and we will tell you how to grow it. WhatsApp, call or email. Kanpur.',
 };
 
 /**
@@ -28,11 +28,11 @@ export default function ContactPage() {
             <span>START · A PROJECT</span>
           </div>
           <h1 className="font-display font-extrabold text-bone leading-[0.92] tracking-[-0.04em] max-w-[16ch]" style={{ fontSize: 'clamp(56px, 9vw, 144px)' }}>
-            Tell us about <span className="ital">the project.</span>
+            Tell us about <span className="ital">your brand.</span>
           </h1>
           <p className="mt-s7 max-w-[640px] text-body-l text-bone/80 leading-[1.6]">
-            A few sentences is plenty. We&apos;ll come back with questions inside 24 hours — or
-            you can book a 25-minute call directly.
+            The first conversation is free, direct, and zero-pressure. A few sentences about what
+            you do is enough to begin. We read every message ourselves and reply within 24 hours.
           </p>
         </div>
       </section>

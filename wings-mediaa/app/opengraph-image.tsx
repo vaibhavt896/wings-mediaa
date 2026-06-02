@@ -6,7 +6,7 @@ import { site } from '@/lib/seo/site';
  * 1200×630 brand card: ink canvas, crimson accent rule, wordmark, tagline, address strip.
  * Generated statically at build time (no `runtime = 'edge'` flag needed for static OG).
  */
-export const alt = `${site.name} — Motion-led studio`;
+export const alt = `${site.name} · AI-Powered Marketing & Creative Studio, Kanpur`;
 export const size = { width: 1200, height: 630 };
 export const contentType = 'image/png';
 
@@ -41,7 +41,7 @@ export default function Image() {
           }}
         >
           <div style={{ width: 56, height: 2, background: '#FF3D2E' }} />
-          <div>MOTION · LED STUDIO · MUMBAI</div>
+          <div>AI-POWERED STUDIO · KANPUR</div>
         </div>
 
         {/* Middle — headline */}
@@ -68,8 +68,8 @@ export default function Image() {
               gap: '0 18px',
             }}
           >
-            <span style={{ display: 'flex' }}>We make brands</span>
-            <span style={{ display: 'flex', fontStyle: 'italic', fontWeight: 400, color: '#FF3D2E' }}>move.</span>
+            <span style={{ display: 'flex' }}>We make local brands</span>
+            <span style={{ display: 'flex', fontStyle: 'italic', fontWeight: 400, color: '#FF3D2E' }}>impossible to ignore.</span>
           </div>
           <div
             style={{

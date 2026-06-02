@@ -9,7 +9,6 @@ const links = [
   { href: '/work', label: 'Work' },
   { href: '/services', label: 'Services' },
   { href: '/about', label: 'About' },
-  { href: '/insights', label: 'Insights' },
   { href: '/contact', label: 'Contact' },
 ];
 
@@ -53,7 +52,7 @@ export default function Nav() {
         <Link
           href="/"
           className="font-display font-extrabold text-[13px] tracking-[0.18em] uppercase text-bone"
-          aria-label="Wings Mediaa — Home"
+          aria-label="Wings Mediaa Home"
         >
           WINGS<span className="text-crimson mx-0.5">·</span>MEDIAA
         </Link>

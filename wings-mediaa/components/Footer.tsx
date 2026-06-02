@@ -9,23 +9,24 @@ import LiveClock from './LiveClock';
 
 const sitemap = [
   { href: '/work', label: 'Work' },
+  { href: '/services', label: 'Services' },
   { href: '/about', label: 'About' },
-  { href: '/insights', label: 'Insights' },
   { href: '/contact', label: 'Contact' },
 ];
 
 const services = [
-  { href: '/services/performance-marketing', label: 'Performance Marketing' },
   { href: '/services/social-content', label: 'Social & Content' },
+  { href: '/services/performance-marketing', label: 'Performance Ads' },
+  { href: '/services/web-motion', label: 'Websites' },
+  { href: '/services/seo-aeo', label: 'SEO & AI Search' },
+  { href: '/services/whatsapp-automation', label: 'WhatsApp & Automation' },
   { href: '/services/branding', label: 'Branding' },
-  { href: '/services/web-motion', label: 'Web & Motion' },
-  { href: '/services/seo-aeo', label: 'SEO / AEO' },
 ];
 
 const social = [
   { href: 'https://instagram.com/wingsmediaa', label: 'Instagram' },
+  { href: 'https://facebook.com/wingsmediaa', label: 'Facebook' },
   { href: 'https://linkedin.com/company/wingsmediaa', label: 'LinkedIn' },
-  { href: 'https://x.com/wingsmediaa', label: 'X (Twitter)' },
   { href: 'mailto:hello@wingsmediaa.com', label: 'Email' },
 ];
 
@@ -44,7 +45,7 @@ export default function Footer() {
               WINGS<span className="text-crimson mx-0.5">·</span>MEDIAA
             </Link>
             <p className="text-bone/60 text-body-m max-w-prose">
-              A motion-led studio for D2C, brand and performance. Mumbai · Delhi · Remote.
+              The AI-powered creative & marketing studio for brands that refuse to be ignored. Kanpur · Working with brands across India.
             </p>
           </div>
 
@@ -113,15 +114,15 @@ export default function Footer() {
           <div className="flex flex-wrap items-center gap-s5">
             <span className="flex items-center gap-2">
               <span className="pulse-dot w-1.5 h-1.5 rounded-full bg-crimson" aria-hidden />
-              <LiveClock className="text-bone tabular-nums" /> · MUMBAI
+              <LiveClock className="text-bone tabular-nums" /> · KANPUR
             </span>
-            <span>● 12 ACTIVE CAMPAIGNS</span>
-            <span className="hidden md:inline">● NOW PLAYING — VALOR · 30s SPOT</span>
+            <span>● LIVE · KANPUR</span>
+            <span className="hidden md:inline">● NOW WORKING WITH SOLITAIRE & SKIN MANTRAA</span>
           </div>
           <div className="flex items-center gap-s5">
             <span>© {new Date().getFullYear()} Wings Mediaa</span>
             <span>·</span>
-            <span>v1.0</span>
+            <span>Built in Kanpur</span>
           </div>
         </div>
       </div>

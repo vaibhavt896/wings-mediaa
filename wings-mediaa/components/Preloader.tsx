@@ -69,24 +69,24 @@ export default function Preloader() {
       opacity: 0,
     });
 
-    // Total budget ≈ 1.2s per Beat 0 storyboard: 0.55s assembly + 0.1s hold + 0.55s curtain.
+    // Total budget ≈ 0.6s total: 0.3s assembly + 0.05s hold + 0.35s curtain.
     tl.to(letters, {
       y: 0,
       rotate: 0,
       opacity: 1,
-      duration: 0.55,
-      ease: 'back.out(1.4)',
-      stagger: { each: 0.035, from: 'start' },
+      duration: 0.3,
+      ease: 'back.out(1.2)',
+      stagger: { each: 0.015, from: 'start' },
     });
 
     // Brief hold
-    tl.to({}, { duration: 0.1 });
+    tl.to({}, { duration: 0.05 });
 
-    // Curtain up — overlay slides up + fades
+    // Curtain up — overlay slides up
     tl.to(overlayRef.current, {
       yPercent: -100,
-      duration: 0.55,
-      ease: 'expo.inOut',
+      duration: 0.35,
+      ease: 'expo.out',
     });
 
     return () => {

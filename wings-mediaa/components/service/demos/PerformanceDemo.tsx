@@ -30,7 +30,7 @@ export default function PerformanceDemo() {
     const progressEl = root.querySelector<HTMLElement>('[data-perf-progress]');
 
     const setFinal = () => {
-      if (roasEl) roasEl.textContent = '7.4';
+      if (roasEl) roasEl.textContent = '3.2';
       if (cacEl) cacEl.textContent = '₹476';
       if (convEl) convEl.textContent = '24,318';
       bars.forEach((el) => {
@@ -63,7 +63,7 @@ export default function PerformanceDemo() {
         onUpdate: () => {
           const p = proxy.p;
           const eased = 1 - Math.pow(1 - p, 2);
-          if (roasEl) roasEl.textContent = (7.4 * eased).toFixed(1);
+          if (roasEl) roasEl.textContent = (3.2 * eased).toFixed(1);
           if (cacEl) cacEl.textContent = `₹${Math.round(820 - 344 * eased)}`;
           if (convEl) convEl.textContent = Math.round(24318 * eased).toLocaleString('en-IN');
           bars.forEach((el) => {
@@ -80,10 +80,10 @@ export default function PerformanceDemo() {
   }, []);
 
   const creatives = [
-    { name: 'KORA · 30s', kind: 'VIDEO', target: 92 },
-    { name: 'KORA · STILL A', kind: 'IMAGE', target: 76 },
-    { name: 'KORA · CAROUSEL', kind: 'CAROUSEL', target: 58 },
-    { name: 'KORA · UGC', kind: 'UGC', target: 84 },
+    { name: 'REEL · 30s', kind: 'VIDEO', target: 92 },
+    { name: 'STILL A', kind: 'IMAGE', target: 76 },
+    { name: 'CAROUSEL', kind: 'CAROUSEL', target: 58 },
+    { name: 'UGC', kind: 'UGC', target: 84 },
   ];
 
   return (
@@ -97,12 +97,12 @@ export default function PerformanceDemo() {
         <div className="flex items-center justify-between mb-s7">
           <div className="font-mono text-[11px] tracking-[0.18em] uppercase text-mute flex items-center gap-s3">
             <span className="pulse-dot w-1.5 h-1.5 rounded-full bg-crimson" aria-hidden />
-            CAMPAIGN · KORA · Q1 2026 · LIVE
+            EXAMPLE CAMPAIGN · SAMPLE DATA
           </div>
           <div className="font-mono text-[11px] tracking-[0.14em] uppercase text-mute hidden md:flex items-center gap-s4">
             <span>SOURCE: META + GOOGLE</span>
             <span aria-hidden>·</span>
-            <span>WINDOW: 12 WEEKS</span>
+            <span>ILLUSTRATIVE</span>
           </div>
         </div>
 

@@ -81,8 +81,7 @@ export default function ServiceCTA({ current, prefillService = true }: ServiceCT
             light ? 'text-ink' : 'text-bone'
           )}
         >
-          Want this for your{' '}
-          <span className="ital">{current.italicWord.replace('.', '')}</span>?
+          Want this for your <span className="ital">brand?</span>
         </h2>
 
         <div data-cta-reveal className="flex flex-wrap items-center gap-s5 mt-s4">

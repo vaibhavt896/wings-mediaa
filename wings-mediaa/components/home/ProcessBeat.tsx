@@ -15,7 +15,7 @@ export default function ProcessBeat() {
       <div className="container-page px-5 md:px-9 pt-s9 pb-s7">
         <div className="font-mono text-[12px] tracking-[0.22em] uppercase text-mute flex items-center gap-s4 mb-s5">
           <span className="block w-9 h-px bg-crimson" />
-          <span id="process-label">07 / 09 — HOW WE WORK</span>
+          <span id="process-label">05 · THE PROCESS</span>
         </div>
         <h2 className="font-display font-bold text-d-l md:text-d-xl tracking-[-0.03em] leading-[1] text-bone">
           Four <span className="ital">moves.</span> One studio.
@@ -47,10 +47,10 @@ export default function ProcessBeat() {
         {/* Tail card — calm landing after the four posters */}
         <article className="shrink-0 w-[60vw] md:w-[40vw] h-screen flex flex-col justify-center gap-s4 pl-s7">
           <div className="font-mono text-[11px] tracking-[0.18em] uppercase text-mute">
-            04 STEPS · ONE LOOP
+            NO LOCK-INS · NO CONFUSION
           </div>
           <p className="font-display font-bold text-d-m text-bone tracking-[-0.02em] leading-[1.1]">
-            We don&apos;t hand off the work. We <span className="ital">stay with it.</span>
+            A studio that <span className="ital">stays with the work.</span>
           </p>
         </article>
       </PinScrub>

@@ -4,7 +4,7 @@ import MosaicGrid from '@/components/work/MosaicGrid';
 export const metadata: Metadata = {
   title: 'Work',
   description:
-    'Selected case studies from Wings Mediaa — D2C, brand films, performance rewrites. Each one is a film.',
+    'Real brands we are growing: Solitaire, Skin Mantraa. No borrowed logos, no invented numbers.',
 };
 
 /**
@@ -20,16 +20,16 @@ export default function WorkIndexPage() {
         <div className="container-page">
           <div className="font-mono text-[12px] tracking-[0.22em] uppercase text-mute flex items-center gap-s4 mb-s5">
             <span className="block w-9 h-px bg-crimson" />
-            INDEX — THE WORK
+            INDEX · THE WORK
           </div>
           <h1 className="font-display font-extrabold text-xxl leading-[0.92] tracking-[-0.04em] text-bone">
-            Selected <span className="ital">films,</span>
+            Real brands. Real <span className="ital">growth.</span>
             <br />
-            funnels, brands.
+            No borrowed logos.
           </h1>
           <p className="mt-s7 max-w-[620px] text-body-l text-bone/80">
-            Each case below opens into its own film. The wrapper is the constant; the case is the
-            variable.
+            We take on a limited number of brands at a time. Only real clients, only real numbers,
+            plugged in as the results land.
           </p>
         </div>
       </section>

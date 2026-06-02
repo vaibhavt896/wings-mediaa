@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 
 /**
- * Live Mumbai clock — used by Nav, Footer, and the Contact page.
+ * Live Kanpur clock — used by Nav, Footer, and the Contact page.
  * Formats as HH:MM:SS in Asia/Kolkata timezone.
  * Pauses for prefers-reduced-motion (still shows current time, just no per-second updates).
  */
@@ -25,7 +25,7 @@ export default function LiveClock({ className = '' }: { className?: string }) {
   }, []);
 
   return (
-    <span className={className} aria-label={`Mumbai local time ${time}`}>
+    <span className={className} aria-label={`Kanpur local time ${time}`}>
       {time}
     </span>
   );

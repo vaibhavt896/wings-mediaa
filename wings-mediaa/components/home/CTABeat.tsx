@@ -55,11 +55,11 @@ export default function CTABeat() {
       <div className="container-page flex flex-col items-start gap-s9">
         <div className="font-mono text-[12px] tracking-[0.22em] uppercase text-mute flex items-center gap-s4">
           <span className="block w-9 h-px bg-crimson" />
-          <span id="cta-label">09 / 09 — START</span>
+          <span id="cta-label">07 · START</span>
         </div>
 
         <h2 className="font-display font-extrabold text-bone leading-[0.92] tracking-[-0.04em] text-[clamp(60px,13vw,200px)]">
-          Make it <span className="ital">move.</span>
+          Get found. Get <span className="ital">chosen.</span>
         </h2>
 
         {/* Oversized wordmark — the brand mark scales to fill */}
@@ -96,7 +96,7 @@ export default function CTABeat() {
           <div data-cta-action className="font-mono text-[11px] tracking-[0.16em] uppercase text-mute md:ml-s5">
             <span className="text-bone">hello@wingsmediaa.com</span>
             <span className="mx-s3" aria-hidden>·</span>
-            <span>Mumbai</span>
+            <span>Kanpur</span>
           </div>
         </div>
       </div>

@@ -100,9 +100,9 @@ export default function ContactForm() {
     const e: Errors = {};
     if (!state.name.trim()) e.name = 'Your name, please.';
     if (!state.email.trim()) e.email = 'We need an email to reply.';
-    else if (!EMAIL_RE.test(state.email.trim())) e.email = 'That email looks off — double-check?';
+    else if (!EMAIL_RE.test(state.email.trim())) e.email = 'That email looks off. Double-check?';
     if (!state.brief.trim() || state.brief.trim().length < 10)
-      e.brief = 'A few sentences — what are you trying to make?';
+      e.brief = 'A few sentences. What do you want more of?';
     return e;
   };
 
@@ -145,7 +145,7 @@ export default function ContactForm() {
           data-success-reveal
           className="max-w-[60ch] text-body-l text-bone/70 leading-[1.6]"
         >
-          One of the founders reads every brief — usually inside the working day, sometimes by
+          Vaibhav reads every brief himself, usually inside the working day, sometimes by
           the next morning. If you haven&apos;t heard from us in 48 hours, write directly to{' '}
           <a
             href="mailto:hello@wingsmediaa.com"
@@ -320,11 +320,11 @@ export default function ContactForm() {
         as="textarea"
         label="Tell us about the project"
         name="brief"
-        placeholder="What are you trying to make? Who's it for? What's a win?"
+        placeholder="What do you want more of? More walk-ins, more enquiries, a stronger brand?"
         value={state.brief}
         onChange={(e) => setState((s) => ({ ...s, brief: e.target.value }))}
         error={!!errors.brief}
-        hint={errors.brief || 'A few sentences is plenty — we’ll come back with questions.'}
+        hint={errors.brief || 'A few sentences is plenty. We will come back with questions.'}
         required
       />
 

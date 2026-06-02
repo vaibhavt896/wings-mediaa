@@ -23,8 +23,8 @@ interface HeroStatementProps {
 
 /**
  * HeroStatement — Display XXL kinetic statement.
- * Each line is masked (overflow:hidden); words inside translate from yPercent 110 → 0
- * with 60ms stagger, 1.1s duration, expo-out. Matches handoff §07 hero pattern.
+ * Each line is masked (overflow:hidden); letters inside translate from yPercent 110 → 0
+ * with 15ms stagger, 0.9s duration, expo-out. Matches handoff §07 hero pattern.
  */
 export default function HeroStatement({
   lines,
@@ -40,25 +40,25 @@ export default function HeroStatement({
   useEffect(() => {
     const root = rootRef.current;
     if (!root) return;
-    const words = root.querySelectorAll<HTMLElement>('.hs-word');
-    if (!words.length) return;
+    const chars = root.querySelectorAll<HTMLElement>('.hs-char');
+    if (!chars.length) return;
 
     // Respect reduced motion — set final state and bail.
     const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     if (reduced) {
-      gsap.set(words, { yPercent: 0, opacity: 1 });
+      gsap.set(chars, { yPercent: 0, opacity: 1 });
       return;
     }
 
-    gsap.set(words, { yPercent: 110 });
+    gsap.set(chars, { yPercent: 110 });
 
     let anim: gsap.core.Tween | null = null;
     const start = () => {
-      anim = gsap.to(words, {
+      anim = gsap.to(chars, {
         yPercent: 0,
-        duration: 1.1,
+        duration: 0.9,
         ease: 'expo.out',
-        stagger: 0.06,
+        stagger: 0.015,
         delay,
         ...(scrollTrigger
           ? {
@@ -104,7 +104,7 @@ export default function HeroStatement({
       >
         {lines.map((line, li) => (
           <span key={li} className="block overflow-hidden">
-            <span className="inline-block">{splitWords(line, italicWord)}</span>
+            <span className="inline-block">{splitLetters(line, italicWord)}</span>
           </span>
         ))}
       </Tag>
@@ -112,8 +112,8 @@ export default function HeroStatement({
   );
 }
 
-/** Split a line into spaced word spans. The first occurrence of `italicWord` is wrapped in .ital. */
-function splitWords(line: string, italicWord?: string) {
+/** Split a line into spaced word spans, and split words into characters for granular letter reveals. */
+function splitLetters(line: string, italicWord?: string) {
   const tokens = line.split(/(\s+)/); // keep whitespace
   let italicConsumed = false;
   return tokens.map((tok, i) => {
@@ -124,16 +124,21 @@ function splitWords(line: string, italicWord?: string) {
       tok.replace(/[^\p{L}\p{N}-]/gu, '').toLowerCase() === italicWord.toLowerCase();
     if (cleanMatch) {
       italicConsumed = true;
-      return (
-        <span key={i} className="hs-word inline-block">
-          <span className="ital">{tok}</span>
-        </span>
-      );
     }
+    const wordClass = cleanMatch
+      ? 'ital inline-block whitespace-nowrap'
+      : 'inline-block whitespace-nowrap';
+      
+    const chars = tok.split('');
     return (
-      <span key={i} className="hs-word inline-block">
-        {tok}
+      <span key={i} className={wordClass}>
+        {chars.map((char, ci) => (
+          <span key={ci} className="hs-char inline-block will-change-transform">
+            {char}
+          </span>
+        ))}
       </span>
     );
   });
 }
+

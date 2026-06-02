@@ -45,15 +45,15 @@ export default function Team({ members }: TeamProps) {
           <div>
             <div className="font-mono text-[12px] tracking-[0.22em] uppercase text-mute flex items-center gap-s4 mb-s5">
               <span className="block w-9 h-px bg-crimson" />
-              <span id="team-label">THE TEAM · 12 PEOPLE · MUMBAI · DELHI</span>
+              <span id="team-label">WHO YOU WORK WITH</span>
             </div>
             <h2 className="font-display font-bold text-d-l md:text-d-xl tracking-[-0.03em] leading-[1] text-bone max-w-[12ch]">
-              The people who <span className="ital">ship.</span>
+              The <span className="ital">founder.</span>
             </h2>
           </div>
           <p className="max-w-[400px] text-body-m text-bone/65 leading-[1.6]">
-            We&apos;re a small studio on purpose. The same eight names lead every project from
-            kickoff through ship.
+            You do not get passed to an intern who forgets your brand by Friday. Work with Wings
+            Mediaa and you work directly with the person accountable for your growth.
           </p>
         </div>
 
@@ -62,7 +62,7 @@ export default function Team({ members }: TeamProps) {
             <li
               key={m.name}
               data-team-card
-              className="flex flex-col gap-s4"
+              className="flex flex-col gap-s4 sm:col-span-1"
             >
               {/* Portrait — single light source, off-white seamless feel via tone-on-tone gradient. */}
               <div className="relative aspect-[4/5] rounded-r4 overflow-hidden border border-hair bg-ink-2">

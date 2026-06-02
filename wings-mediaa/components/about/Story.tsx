@@ -70,7 +70,7 @@ export default function Story({
         >
           <div className="flex items-center gap-s3">
             <span className="pulse-dot w-1.5 h-1.5 rounded-full bg-crimson" aria-hidden />
-            <LiveClock className="text-bone tabular-nums" /> · MUMBAI
+            <LiveClock className="text-bone tabular-nums" /> · KANPUR
           </div>
           {locations.map((loc) => (
             <div key={loc.city} className="flex flex-col gap-s2 max-w-[320px]">

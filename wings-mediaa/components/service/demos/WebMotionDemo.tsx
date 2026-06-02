@@ -182,7 +182,7 @@ function MicroDemo({ kind }: { kind: Kind }) {
   if (kind === 'count') {
     return (
       <div className="font-display font-extrabold text-[28px] tracking-[-0.03em] text-bone leading-none tabular-nums">
-        7.4<span className="text-crimson">×</span>
+        100<span className="text-crimson">%</span>
       </div>
     );
   }

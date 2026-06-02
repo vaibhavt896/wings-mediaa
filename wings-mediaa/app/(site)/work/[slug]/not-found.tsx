@@ -23,7 +23,7 @@ export default function CaseNotFound() {
         </h1>
 
         <p className="mt-s7 max-w-[58ch] text-body-l text-bone/75 leading-[1.65]">
-          It may have moved or never existed. The four cases that are live:
+          It may have moved or never existed. The cases that are live:
         </p>
 
         <ul className="mt-s8 flex flex-col gap-0 max-w-[58ch]">

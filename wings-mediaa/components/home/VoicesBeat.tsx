@@ -39,7 +39,7 @@ export default function VoicesBeat() {
           className="font-mono text-[12px] font-normal tracking-[0.22em] uppercase text-mute flex items-center gap-s4 mb-s8"
         >
           <span aria-hidden className="block w-9 h-px bg-crimson" />
-          <span>08 / 09 — VOICES</span>
+          <span>06 · WHY WE EXIST</span>
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-s8 md:gap-s10">

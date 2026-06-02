@@ -24,8 +24,8 @@ export default function Sandbox() {
         <div className="container-page">
           <SectionLabel n="01" title="HERO STATEMENT" />
           <HeroStatement
-            lines={['We make brands', 'move — in feeds,', 'in funnels, on screen.']}
-            italicWord="move"
+            lines={['We make local brands', 'impossible to ignore.']}
+            italicWord="impossible"
           />
           <p className="mt-s7 max-w-[640px] text-body-l text-bone/80">
             Headline animates on mount: each word rises from a hidden mask, 60ms stagger, 1.1s
@@ -40,20 +40,20 @@ export default function Sandbox() {
           <SectionLabel n="02" title="BUTTONS · MAGNETIC" />
           <div className="flex flex-wrap items-center gap-s5">
             <Button variant="primary" href="/contact">
-              Start a project →
+              Start your project →
             </Button>
             <Button variant="secondary" href="/work">
               See the work
             </Button>
             <Button variant="ghost" href="/about">
-              Read the manifesto →
+              Read the story →
             </Button>
             <Button variant="primary" onClick={() => alert('clicked')}>
               Click handler
             </Button>
           </div>
           <p className="mt-s6 text-mute text-body-m max-w-prose">
-            All buttons are magnetic — they translate toward the cursor by 18% of cursor offset
+            All buttons are magnetic: they translate toward the cursor by 18% of cursor offset
             within a 120px radius. Crimson primary, outlined secondary, underlined ghost.
           </p>
 
@@ -82,12 +82,12 @@ export default function Sandbox() {
         </div>
         <Marquee
           items={[
-            'PERFORMANCE MARKETING',
             'SOCIAL & CONTENT',
+            'PERFORMANCE ADS',
+            'WEBSITES',
+            'SEO & AI SEARCH',
+            'WHATSAPP & AUTOMATION',
             'BRANDING',
-            'WEB & MOTION',
-            'SEO / AEO',
-            'CREATIVE STRATEGY',
           ]}
           speed={80}
         />
@@ -101,7 +101,7 @@ export default function Sandbox() {
             variant="mono"
             speed={60}
             reverse
-            items={['KORA · NUDE', 'TRANQUIL TEAS', 'IXANA', 'VALOR', 'SOLEIL', 'OBSCURA']}
+            items={['SOLITAIRE · FINE JEWELLERY', 'SKIN MANTRAA · SKINCARE CLINIC']}
           />
         </div>
       </section>
@@ -111,14 +111,14 @@ export default function Sandbox() {
         <div className="container-page">
           <SectionLabel n="04" title="COUNT UP · METRIC" />
           <div className="grid grid-cols-1 md:grid-cols-3 gap-s7">
-            <Metric value={7.4} suffix="×" eyebrow="ROAS" label="KORA D2C · Q1 2026" />
-            <Metric value={312} prefix="+" suffix="%" eyebrow="REVENUE" label="VALOR · 12 WEEKS" />
-            <Metric value={1500000} suffix="+" eyebrow="IMPRESSIONS" label="TRANQUIL TEAS LAUNCH" />
+            <Metric value={2} eyebrow="REAL CLIENTS" label="KANPUR · 2026" />
+            <Metric value={6} eyebrow="SERVICES" label="ONE STUDIO" />
+            <Metric value={1} eyebrow="FOUNDER-LED" label="ACCOUNTABLE" />
           </div>
 
           <div className="mt-s8 flex items-baseline gap-s5">
             <span className="font-display font-extrabold text-d-xl text-bone leading-none">
-              <CountUp to={9.8} suffix="×" />
+              <CountUp to={100} suffix="%" />
             </span>
             <span className="font-mono text-[11px] tracking-[0.16em] uppercase text-mute">
               Inline CountUp
@@ -133,22 +133,22 @@ export default function Sandbox() {
           <SectionLabel n="05" title="CASE TILE" />
           <div className="grid grid-cols-1 md:grid-cols-2 gap-s7">
             <CaseTile
-              href="/work/kora"
-              title="Kora — D2C launch reel"
-              caption="01 · D2C · MUMBAI · ROAS 7.4×"
+              href="/work/solitaire"
+              title="Solitaire"
+              caption="01 · FINE JEWELLERY · SWAROOP NAGAR"
               indexLabel="CASE · 001"
               accent="#FF3D2E"
             />
             <CaseTile
-              href="/work/valor"
-              title="Valor — Brand film"
-              caption="03 · BRAND FILM · 2026 · 30s SPOT"
-              indexLabel="CASE · 003"
+              href="/work/skin-mantraa"
+              title="Skin Mantraa"
+              caption="02 · SKINCARE CLINIC · KANPUR"
+              indexLabel="CASE · 002"
               accent="#E6FF3C"
             />
           </div>
           <p className="mt-s6 text-mute text-body-m max-w-prose">
-            Hover scales 1.04 with overshoot, mask-reveals on scroll-into-view (clip-path 100% →
+            Hover scales 1.04 with overshoot, mask-reveals on scroll-into-view (clip-path 100% to
             0). Cursor swaps to the VIEW pill via <code className="font-mono text-[11px]">data-cur=&quot;media&quot;</code>.
           </p>
         </div>
@@ -159,7 +159,7 @@ export default function Sandbox() {
         <SectionLabel n="06" title="PINSCRUB · HORIZONTAL" />
       </section>
       <PinScrub mode="horizontal" innerClassName="gap-s8 px-9">
-        {['LISTEN', 'SKETCH', 'BUILD', 'SHIP'].map((step, i) => (
+        {['LISTEN', 'PLAN', 'BUILD', 'GROW'].map((step, i) => (
           <div
             key={step}
             className="w-[80vw] md:w-[60vw] shrink-0 h-screen flex flex-col justify-center gap-s5 border-l border-hair pl-s7"
@@ -172,13 +172,13 @@ export default function Sandbox() {
             </h3>
             <p className="text-body-l text-bone/70 max-w-[40ch]">
               {step === 'LISTEN' &&
-                'We start with a 90-minute deep-listen — your goals, your audience, the constraints nobody else asked about.'}
-              {step === 'SKETCH' &&
-                'Two creative routes, drawn fast, presented loud. The point is to find the spine, not the polish.'}
+                'A short, focused conversation about your business, your customer, and what you want more of. Free, and genuinely useful.'}
+              {step === 'PLAN' &&
+                'A clear, honest plan: what we would do, what it costs, what to expect. If we are not the right fit, we say so.'}
               {step === 'BUILD' &&
-                'Production at agency-speed with studio-craft. Daily standups, weekly screenings.'}
-              {step === 'SHIP' &&
-                'Launch is day one, not day zero. Performance is tracked, creative is iterated, the work keeps moving.'}
+                'We get to work on strategy, content, ads, the system. You see progress, not promises.'}
+              {step === 'GROW' &&
+                'As customers come in, we scale what works. Your results become our portfolio.'}
             </p>
           </div>
         ))}
@@ -188,17 +188,17 @@ export default function Sandbox() {
       <section className="section">
         <div className="container-page grid grid-cols-1 md:grid-cols-2 gap-s7">
           <Quote
-            text="Working with Wings Mediaa was the first time our creative agency understood the funnel."
-            name="Priya M"
-            role="CMO"
-            company="TRANQUIL TEAS"
+            text="I started Wings Mediaa because Kanpur is full of brilliant businesses being out-marketed by lesser ones. The difference is never the product. It is who knows how to be seen."
+            name="Vaibhav Tiwari"
+            role="Founder"
+            company="WINGS MEDIAA"
           />
           <Quote
             lime
-            text="They didn't just ship a film. They shipped a feeling that our customers screenshot and post back at us."
-            name="Aman Rao"
-            role="Founder"
-            company="KORA D2C"
+            text="Real client testimonials land here as the work compounds. We feature words only once they are genuinely ours."
+            name="Sample"
+            role="Placeholder"
+            company="LANDING SOON"
           />
         </div>
       </section>
@@ -224,10 +224,10 @@ export default function Sandbox() {
             />
             <Field
               as="textarea"
-              label="Tell us about the project"
+              label="Tell us about your brand"
               name="brief"
-              placeholder="Goals, audience, timeline…"
-              hint="A few lines is plenty — we'll come back with questions."
+              placeholder="What do you want more of?"
+              hint="A few lines is plenty. We will come back with questions."
             />
             <div className="pt-s4">
               <Button variant="primary" type="submit">
@@ -245,7 +245,7 @@ function SectionLabel({ n, title }: { n: string; title: string }) {
   return (
     <div className="font-mono text-[12px] tracking-[0.22em] uppercase text-mute flex items-center gap-s4 mb-s7">
       <span className="block w-9 h-px bg-crimson" />
-      {n} — {title}
+      {n} · {title}
     </div>
   );
 }

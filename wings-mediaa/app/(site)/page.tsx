@@ -3,9 +3,14 @@ import HeroBeat from '@/components/home/HeroBeat';
 import ProofMarquee from '@/components/home/ProofMarquee';
 import SelectedWork from '@/components/home/SelectedWork';
 import NumbersBeat from '@/components/home/NumbersBeat';
+import ProblemBeat from '@/components/home/ProblemBeat';
+import ShiftBeat from '@/components/home/ShiftBeat';
 import ServicesBeat from '@/components/home/ServicesBeat';
+import WhyUsBeat from '@/components/home/WhyUsBeat';
 import ProcessBeat from '@/components/home/ProcessBeat';
 import VoicesBeat from '@/components/home/VoicesBeat';
+import PlansBeat from '@/components/home/PlansBeat';
+import FaqBeat from '@/components/home/FaqBeat';
 import CTABeat from '@/components/home/CTABeat';
 
 /**
@@ -32,9 +37,14 @@ export default function HomePage() {
       <ProofMarquee />
       <SelectedWork />
       <NumbersBeat />
+      <ProblemBeat />
+      <ShiftBeat />
       <ServicesBeat />
+      <WhyUsBeat />
       <ProcessBeat />
       <VoicesBeat />
+      <PlansBeat />
+      <FaqBeat />
       <CTABeat />
     </>
   );

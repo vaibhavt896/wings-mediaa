@@ -74,7 +74,7 @@ export default function NumbersBeat() {
           className="font-mono text-[12px] font-normal tracking-[0.22em] uppercase text-mute flex items-center gap-s4 mb-s7"
         >
           <span aria-hidden className="block w-9 h-px bg-crimson" />
-          <span>05 / 09 — THE NUMBERS</span>
+          <span>03 · THE PROOF</span>
         </h2>
 
         {/* Three metrics, scrub-bound */}
@@ -87,15 +87,21 @@ export default function NumbersBeat() {
                   {n.eyebrow}
                 </div>
                 <div className="font-display font-extrabold text-d-xl tracking-[-0.03em] leading-none text-bone">
-                  {n.prefix}
-                  <span
-                    data-num={n.value}
-                    data-dec={dec}
-                    className="tabular-nums inline-block min-w-[3ch]"
-                  >
-                    0
-                  </span>
-                  {n.suffix && <span className="text-crimson">{n.suffix}</span>}
+                  {n.placeholder ? (
+                    <span className="text-crimson">{n.placeholder}</span>
+                  ) : (
+                    <>
+                      {n.prefix}
+                      <span
+                        data-num={n.value}
+                        data-dec={dec}
+                        className="tabular-nums inline-block min-w-[3ch]"
+                      >
+                        0
+                      </span>
+                      {n.suffix && <span className="text-crimson">{n.suffix}</span>}
+                    </>
+                  )}
                 </div>
                 <div className="font-mono text-[11px] tracking-[0.18em] uppercase text-mute leading-[1.5]">
                   {n.label}

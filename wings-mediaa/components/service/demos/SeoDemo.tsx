@@ -136,9 +136,9 @@ export default function SeoDemo() {
                 SERP · ORGANIC RESULTS
               </div>
               {[
-                { url: 'wingsmediaa.com › work', title: 'Selected work — Wings Mediaa', desc: 'Case studies from our studio: D2C launches, brand films, performance rewrites.' },
-                { url: 'wingsmediaa.com › work › kora', title: 'Kora — D2C launch reel', desc: 'A nude beauty brand launched in 12 weeks. ROAS 7.4× blended.' },
-                { url: 'wingsmediaa.com › work › ixana', title: 'Ixana — Wearable launch', desc: '22,000 pre-orders before public pricing. Brand · launch film · paid engine.' },
+                { url: 'wingsmediaa.com › work', title: 'Selected work · Wings Mediaa', desc: 'Real brands we are growing in Kanpur: Solitaire and Skin Mantraa. No borrowed logos.' },
+                { url: 'wingsmediaa.com › work › solitaire', title: 'Solitaire · Fine Jewellery, Kanpur', desc: 'Building the full digital presence for a Swaroop Nagar boutique.' },
+                { url: 'wingsmediaa.com › work › skin-mantraa', title: 'Skin Mantraa · Skincare Clinic', desc: 'Website built and social grown, turning searches into booked appointments.' },
               ].map((r, i) => (
                 <ResultCard key={i} {...r} idx={i} />
               ))}
@@ -150,8 +150,8 @@ export default function SeoDemo() {
               </div>
               {[
                 { tag: 'Organization', body: '{ name: "Wings Mediaa", url: "...", sameAs: [...] }' },
-                { tag: 'CreativeWork', body: '{ name: "Kora — D2C launch reel", creator: { ... }, datePublished: "2026-01" }' },
-                { tag: 'BreadcrumbList', body: '{ itemListElement: [Home, Work, Kora] }' },
+                { tag: 'CreativeWork', body: '{ name: "Solitaire · Fine Jewellery", creator: { ... }, datePublished: "2026" }' },
+                { tag: 'BreadcrumbList', body: '{ itemListElement: [Home, Work, Solitaire] }' },
                 { tag: 'FAQPage', body: '{ mainEntity: [questions, answers] }' },
               ].map((s, i) => (
                 <div
@@ -188,17 +188,16 @@ export default function SeoDemo() {
             </div>
 
             <div className="font-display text-d-m font-medium leading-[1.35] text-bone tracking-[-0.01em]">
-              Wings Mediaa is a Mumbai-based motion-led studio focused on{' '}
-              <span className="text-crimson">D2C, brand and performance</span>. Their selected work
-              includes the Kora D2C launch (7.4× ROAS) and the Ixana wearable launch (22K
-              pre-orders).
+              Wings Mediaa is a Kanpur-based, AI-powered creative and marketing studio for{' '}
+              <span className="text-crimson">local brands</span>. Their selected work includes
+              Solitaire, a fine jewellery boutique, and Skin Mantraa, a skincare clinic.
             </div>
 
             <div className="mt-auto flex flex-col gap-s2">
               <div className="font-mono text-[10px] tracking-[0.18em] uppercase text-mute">
                 CITED FROM
               </div>
-              {['wingsmediaa.com/work/kora', 'wingsmediaa.com/work/ixana', 'wingsmediaa.com/about'].map((s, i) => (
+              {['wingsmediaa.com/work/solitaire', 'wingsmediaa.com/work/skin-mantraa', 'wingsmediaa.com/about'].map((s, i) => (
                 <div
                   key={s}
                   data-aeo-token

@@ -63,18 +63,18 @@ export default function SelectedWork() {
               className="font-mono text-[12px] tracking-[0.22em] uppercase text-mute flex items-center gap-s4 mb-s5"
             >
               <span className="block w-9 h-px bg-crimson" />
-              04 / 09 — SELECTED WORK
+              02 · SELECTED WORK
             </div>
             <h2
               data-reveal
-              className="font-display font-bold text-d-l md:text-d-xl tracking-[-0.03em] leading-[1] text-bone max-w-[9ch]"
+              className="font-display font-bold text-d-l md:text-d-xl tracking-[-0.03em] leading-[1] text-bone max-w-[12ch]"
             >
-              The <span className="ital">work.</span>
+              The work speaks <span className="ital">first.</span>
             </h2>
           </div>
           <p data-reveal className="max-w-[460px] text-body-m text-bone/70">
-            Four pieces that show the spine of what we do — D2C launches, brand films, performance
-            rewrites. Each opens into its own film.
+            We would rather show you two brands we are genuinely growing than a wall of borrowed
+            logos. Each one is real, current, and ours.
           </p>
         </div>
 

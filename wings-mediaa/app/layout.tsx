@@ -1,7 +1,6 @@
 import type { Metadata, Viewport } from 'next';
 import { Inter, Instrument_Serif, JetBrains_Mono } from 'next/font/google';
 import LenisProvider from './providers/lenis-provider';
-import Cursor from '@/components/Cursor';
 import Nav from '@/components/Nav';
 import Footer from '@/components/Footer';
 import { site } from '@/lib/seo/site';
@@ -39,20 +38,21 @@ const jetbrains = JetBrains_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: `${site.name} — Motion-led studio`,
+    default: `${site.name} · AI-Powered Marketing & Creative Studio, Kanpur`,
     template: `%s · ${site.name}`,
   },
   description: site.description,
   metadataBase: new URL(site.url),
   applicationName: site.name,
   keywords: [
-    'D2C marketing India',
-    'Performance marketing studio',
-    'Brand films India',
-    'Mumbai creative studio',
-    'Motion design',
-    'Web design Mumbai',
-    'SEO AEO',
+    'Marketing agency Kanpur',
+    'AI marketing studio',
+    'Social media marketing Kanpur',
+    'Performance ads Kanpur',
+    'Website design Kanpur',
+    'SEO and AI search',
+    'WhatsApp automation',
+    'Branding Kanpur',
   ],
   authors: [{ name: site.founder, url: site.url }],
   creator: site.name,
@@ -62,12 +62,12 @@ export const metadata: Metadata = {
     locale: site.locale,
     url: site.url,
     siteName: site.name,
-    title: `${site.name} — Motion-led studio`,
+    title: `${site.name} · AI-Powered Marketing & Creative Studio, Kanpur`,
     description: site.tagline,
   },
   twitter: {
     card: 'summary_large_image',
-    title: `${site.name} — Motion-led studio`,
+    title: `${site.name} · AI-Powered Marketing & Creative Studio, Kanpur`,
     description: site.tagline,
     creator: '@wingsmediaa',
   },
@@ -112,7 +112,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           Skip to content
         </a>
         <LenisProvider>
-          <Cursor />
           <Nav />
           <main id="main">{children}</main>
           <Footer />

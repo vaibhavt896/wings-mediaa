@@ -9,10 +9,10 @@ import { about } from '@/lib/content/about';
 export const metadata: Metadata = {
   title: 'About',
   description:
-    'Wings Mediaa is a 12-person motion-led studio in Mumbai with a wing in Delhi. We make brands move — in feeds, in funnels, on screen.',
+    'We make ambitious local brands impossible to ignore. Founder-led, AI-powered, honest marketing built for the way people actually choose. Kanpur.',
   openGraph: {
     title: 'About · Wings Mediaa',
-    description: 'A motion-led studio for D2C, brand and performance.',
+    description: 'Founder-led, AI-powered studio for ambitious local brands. Kanpur.',
   },
 };
 

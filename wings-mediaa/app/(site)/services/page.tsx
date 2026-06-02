@@ -6,7 +6,7 @@ import Button from '@/components/Button';
 export const metadata: Metadata = {
   title: 'Services',
   description:
-    'Five disciplines, one studio. Performance, social, branding, web & motion, SEO/AEO.',
+    'Social, performance ads, websites, SEO & AI search, WhatsApp automation and branding. One studio, built to get your brand chosen.',
 };
 
 /**
@@ -24,16 +24,16 @@ export default function ServicesIndexPage() {
         <div className="container-page">
           <div className="font-mono text-[12px] tracking-[0.22em] uppercase text-mute flex items-center gap-s4 mb-s5">
             <span className="block w-9 h-px bg-crimson" />
-            INDEX — SERVICES
+            INDEX · SERVICES
           </div>
           <h1 className="font-display font-extrabold text-xxl leading-[0.92] tracking-[-0.04em] text-bone">
-            Five <span className="ital">disciplines.</span>
+            One studio. <span className="ital">Six</span>
             <br />
-            One studio.
+            disciplines.
           </h1>
           <p className="mt-s7 max-w-[620px] text-body-l text-bone/80">
-            Each one is a working piece of the same machine — the funnel, the brand, and the feel
-            that holds them together. Click a service to see how we make it the proof.
+            You should not have to manage a designer, an ads freelancer, a website person and a
+            social intern who all blame each other. One team owns the whole picture. That is us.
           </p>
         </div>
       </section>
@@ -71,7 +71,7 @@ export default function ServicesIndexPage() {
                       light ? 'text-ink/55' : 'text-mute'
                     }`}
                   >
-                    {String(i + 1).padStart(2, '0')} / 05
+                    {String(i + 1).padStart(2, '0')} / 06
                   </div>
 
                   {/* Title + blurb */}

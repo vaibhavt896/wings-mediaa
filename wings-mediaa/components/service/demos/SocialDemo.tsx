@@ -14,13 +14,14 @@ interface FeedPost {
   duration?: string;
 }
 
+// Illustrative sample feed — neutral specimen brands, not real client data.
 const FEED: FeedPost[] = [
-  { brand: 'KORA · NUDE', type: 'REEL', accent: '#FF3D2E', views: 1240000, engagement: 8.4, duration: '0:28', caption: 'tutorial · launch week' },
-  { brand: 'VALOR', type: 'POST', accent: '#FF884F', views: 612000, engagement: 6.1, caption: 'campaign still · day 2' },
-  { brand: 'TRANQUIL TEAS', type: 'CAROUSEL', accent: '#E6FF3C', views: 318000, engagement: 9.2, caption: '5 cards · weekly ritual' },
-  { brand: 'IXANA', type: 'REEL', accent: '#15151C', views: 2840000, engagement: 11.6, duration: '0:14', caption: 'launch teaser · loop' },
-  { brand: 'KORA · NUDE', type: 'STORY', accent: '#FF5547', views: 84200, engagement: 4.2, caption: 'sticker · poll' },
-  { brand: 'VALOR', type: 'REEL', accent: '#FF884F', views: 1100000, engagement: 7.8, duration: '0:22', caption: 'cinematic · 22s cut' },
+  { brand: 'AURUM', type: 'REEL', accent: '#FF3D2E', views: 1240000, engagement: 8.4, duration: '0:28', caption: 'tutorial · launch week' },
+  { brand: 'FORGE', type: 'POST', accent: '#FF884F', views: 612000, engagement: 6.1, caption: 'campaign still · day 2' },
+  { brand: 'LUMIÈRE', type: 'CAROUSEL', accent: '#E6FF3C', views: 318000, engagement: 9.2, caption: '5 cards · weekly ritual' },
+  { brand: 'NODES', type: 'REEL', accent: '#15151C', views: 2840000, engagement: 11.6, duration: '0:14', caption: 'launch teaser · loop' },
+  { brand: 'AURUM', type: 'STORY', accent: '#FF5547', views: 84200, engagement: 4.2, caption: 'sticker · poll' },
+  { brand: 'BLOOM', type: 'REEL', accent: '#FF884F', views: 1100000, engagement: 7.8, duration: '0:22', caption: 'cinematic · 22s cut' },
 ];
 
 /**
@@ -97,7 +98,7 @@ export default function SocialDemo() {
         FEED · ALWAYS-ON
       </div>
       <div className="absolute top-s7 right-5 md:right-9 z-20 font-mono text-[11px] tracking-[0.14em] uppercase text-mute hidden md:block">
-        24 POSTS / WEEK · 4 CLIENTS
+        SAMPLE FEED · ILLUSTRATIVE
       </div>
 
       {/* Feed track — column of posts */}
@@ -110,7 +111,7 @@ export default function SocialDemo() {
             <PostCard key={i} post={p} />
           ))}
           <div className="font-mono text-[11px] tracking-[0.18em] uppercase text-mute text-center py-s7">
-            — END OF WEEK · LOOP RESTART —
+            · END OF WEEK · LOOP RESTART ·
           </div>
         </div>
       </div>
@@ -118,13 +119,13 @@ export default function SocialDemo() {
       {/* Bottom strip */}
       <div className="absolute inset-x-0 bottom-0 px-5 md:px-9 py-s5 border-t border-hair bg-ink z-10 flex flex-wrap items-center justify-between gap-s4 font-mono text-[10px] md:text-[11px] tracking-[0.16em] uppercase text-mute">
         <span>
-          AVG ENGAGEMENT · <span className="text-bone">8.6%</span>
+          ALWAYS-ON · <span className="text-bone">SAMPLE</span>
         </span>
         <span>
-          MEDIAN VIEWS · <span className="text-bone">412K</span>
+          ILLUSTRATIVE · <span className="text-bone">NOT CLIENT DATA</span>
         </span>
         <span className="hidden md:inline">
-          TOP 3 FORMATS · REEL · POST · CAROUSEL
+          FORMATS · REEL · POST · CAROUSEL
         </span>
       </div>
     </section>

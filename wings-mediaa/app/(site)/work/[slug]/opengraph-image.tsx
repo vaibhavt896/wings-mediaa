@@ -7,14 +7,14 @@ import { site } from '@/lib/seo/site';
  * via generateImageMetadata. Each one uses the case's own `cover.accent` so the
  * social card visually matches the case page.
  */
-export const alt = 'Wings Mediaa — Case study';
+export const alt = 'Wings Mediaa · Case study';
 export const size = { width: 1200, height: 630 };
 export const contentType = 'image/png';
 
 export function generateImageMetadata() {
   return cases.map((c) => ({
     id: c.slug,
-    alt: `${c.title} — ${site.name}`,
+    alt: `${c.title} · ${site.name}`,
     size,
     contentType,
   }));
