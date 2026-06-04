@@ -40,7 +40,7 @@ export default function Nav() {
     <>
       <nav
         className={cn(
-          'fixed top-0 left-0 right-0 z-50 flex items-center justify-between',
+          'fixed top-8 left-0 right-0 z-50 flex items-center justify-between',
           'px-5 md:px-9 py-4 md:py-5',
           'border-b transition-colors duration-300',
           scrolled

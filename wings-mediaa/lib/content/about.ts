@@ -43,8 +43,8 @@ export interface AboutContent {
 export const about: AboutContent = {
   hero: {
     eyebrow: 'ABOUT',
-    line: 'We exist to make ambitious local brands impossible to ignore.',
-    sub: 'Founder-led, AI-powered, and built for the way people actually choose a jeweller, a clinic, a boutique. The truth, told well, is the whole brand.',
+    line: 'We exist to make ambitious brands impossible to ignore.',
+    sub: 'A focused studio of creatives, strategists, and technologists. AI-powered and built for the way people actually choose a jeweller, a clinic, a boutique. The truth, told well, is the whole brand.',
   },
 
   // Display XXL char-reveal manifesto pull
@@ -64,9 +64,30 @@ export const about: AboutContent = {
   team: [
     {
       name: 'Vaibhav Tiwari',
-      role: 'Founder',
-      bio: 'Vaibhav built Wings Mediaa to bring AI-powered, studio-grade marketing to the brands that need it most: the local businesses building real things. He leads strategy, builds the websites, and stays personally accountable for every client’s growth. Work with Wings Mediaa and you work directly with him.',
+      role: 'Co-founder & Creative Director',
+      bio: 'Vaibhav leads strategy and creative direction across every project. He built Wings Mediaa so ambitious local brands could access studio-grade marketing without metro-price waste. When you work with us, you work with the person whose name is on your results.',
       accent: '#FF3D2E',
+      location: 'KANPUR',
+    },
+    {
+      name: 'Creative & Content',
+      role: 'Storytelling · Video · Copy',
+      bio: 'Our creative team handles every touchpoint: scripts, visuals, social content, and brand voice. Studio-grade output built around what your specific audience actually responds to.',
+      accent: '#FF8C42',
+      location: 'KANPUR',
+    },
+    {
+      name: 'Digital Strategy',
+      role: 'Campaigns · SEO · Growth',
+      bio: 'Data-informed strategy that turns attention into customers. We plan, execute, and optimise every campaign around one goal: measurable, real growth for your brand.',
+      accent: '#4ECDC4',
+      location: 'KANPUR',
+    },
+    {
+      name: 'Web & Technology',
+      role: 'Design · Build · Optimise',
+      bio: 'Fast, beautiful websites built for conversion and local search. We design, develop, and maintain digital experiences that work as hard as the rest of your brand.',
+      accent: '#8B5CF6',
       location: 'KANPUR',
     },
   ],

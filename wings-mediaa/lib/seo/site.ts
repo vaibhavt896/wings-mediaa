@@ -9,10 +9,10 @@ export const site = {
   shortName: 'Wings · Mediaa',
   tagline: 'The AI-powered creative and marketing studio for brands that refuse to be ignored.',
   description:
-    'We make local brands impossible to ignore. Premium social, ads, websites and AI search, powered by AI. Founder-led, Kanpur.',
+    'We make brands impossible to ignore. Premium social, ads, websites and AI search, powered by AI. Co-founder-led, Kanpur.',
   locale: 'en_IN',
   country: 'IN',
-  email: 'hello@wingsmediaa.com',
+  email: 'contact@wingsmediaa.com',
   whatsapp: '+919999999999',
   founder: 'Vaibhav Tiwari',
   foundedYear: 2025,

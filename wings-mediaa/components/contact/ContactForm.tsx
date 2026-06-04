@@ -148,10 +148,10 @@ export default function ContactForm() {
           Vaibhav reads every brief himself, usually inside the working day, sometimes by
           the next morning. If you haven&apos;t heard from us in 48 hours, write directly to{' '}
           <a
-            href="mailto:hello@wingsmediaa.com"
+            href="mailto:contact@wingsmediaa.com"
             className="text-bone hover:text-crimson border-b border-mute hover:border-crimson transition-colors"
           >
-            hello@wingsmediaa.com
+            contact@wingsmediaa.com
           </a>
           .
         </p>
@@ -334,7 +334,7 @@ export default function ContactForm() {
           {submitting ? 'Sending…' : 'Send brief →'}
         </Button>
         <span className="font-mono text-[11px] tracking-[0.14em] uppercase text-mute">
-          We reply within 24 hours · hello@wingsmediaa.com
+          We reply within 24 hours · contact@wingsmediaa.com
         </span>
       </div>
     </form>

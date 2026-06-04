@@ -66,7 +66,7 @@ export interface FaqItem {
 
 export const home = {
   hero: {
-    lines: ['We make local brands', 'impossible to ignore.'],
+    lines: ['We make brands', 'impossible to ignore.'],
     italicWord: 'impossible',
     sub: 'Wings Mediaa is the studio ambitious businesses trust to get found, get followed, and get chosen. Premium marketing, powered by AI, built to grow what you have already built.',
   } satisfies HeroBlock,
@@ -94,9 +94,9 @@ export const home = {
   ] satisfies CaseRef[],
 
   numbers: [
-    { value: 2, eyebrow: 'REAL CLIENTS', label: 'SOLITAIRE & SKIN MANTRAA · KANPUR' },
-    { value: 1, eyebrow: 'FOUNDER-LED', label: 'ONE STUDIO · ONE ACCOUNTABLE TEAM' },
-    { value: 0, placeholder: 'SOON', eyebrow: 'RESULTS', label: 'FIRST METRICS · LANDING NOW' },
+    { value: 6, eyebrow: 'DISCIPLINES', label: 'SOCIAL · ADS · WEB · SEO · WHATSAPP · BRANDING' },
+    { value: 100, suffix: '%', eyebrow: 'FOUNDER-LED', label: 'EVERY BRIEF PERSONALLY OWNED · NO HANDOFFS' },
+    { placeholder: 'NOW', eyebrow: 'TAKING BRIEFS', label: 'KANPUR · SERVING BRANDS ACROSS INDIA' },
   ] as NumberBlock[],
 
   services: [

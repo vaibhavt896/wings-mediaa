@@ -3,6 +3,7 @@ import { Inter, Instrument_Serif, JetBrains_Mono } from 'next/font/google';
 import LenisProvider from './providers/lenis-provider';
 import Nav from '@/components/Nav';
 import Footer from '@/components/Footer';
+import DevBanner from '@/components/DevBanner';
 import { site } from '@/lib/seo/site';
 import { JsonLd, organizationJsonLd, websiteJsonLd } from '@/lib/seo/jsonld';
 import '@/styles/globals.css';
@@ -111,6 +112,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <a href="#main" className="skip-link">
           Skip to content
         </a>
+        <DevBanner />
         <LenisProvider>
           <Nav />
           <main id="main">{children}</main>

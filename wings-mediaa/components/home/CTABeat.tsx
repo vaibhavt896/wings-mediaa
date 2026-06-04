@@ -94,7 +94,7 @@ export default function CTABeat() {
             </Button>
           </div>
           <div data-cta-action className="font-mono text-[11px] tracking-[0.16em] uppercase text-mute md:ml-s5">
-            <span className="text-bone">hello@wingsmediaa.com</span>
+            <span className="text-bone">contact@wingsmediaa.com</span>
             <span className="mx-s3" aria-hidden>·</span>
             <span>Kanpur</span>
           </div>

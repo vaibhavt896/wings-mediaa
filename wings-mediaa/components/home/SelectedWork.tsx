@@ -73,8 +73,8 @@ export default function SelectedWork() {
             </h2>
           </div>
           <p data-reveal className="max-w-[460px] text-body-m text-bone/70">
-            We would rather show you two brands we are genuinely growing than a wall of borrowed
-            logos. Each one is real, current, and ours.
+            Real brands. Real growth. We show the work we are proud of, not a wall of borrowed
+            logos. Every case is current and ours.
           </p>
         </div>
 

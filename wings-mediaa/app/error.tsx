@@ -42,10 +42,10 @@ export default function Error({
         <p className="mt-s7 max-w-[60ch] text-body-l text-bone/75 leading-[1.65]">
           That&apos;s on us. Try again, or head somewhere safe. If you keep landing here, write to{' '}
           <a
-            href="mailto:hello@wingsmediaa.com"
+            href="mailto:contact@wingsmediaa.com"
             className="text-bone border-b border-mute hover:text-crimson hover:border-crimson transition-colors"
           >
-            hello@wingsmediaa.com
+            contact@wingsmediaa.com
           </a>{' '}
           and we&apos;ll dig in.
         </p>

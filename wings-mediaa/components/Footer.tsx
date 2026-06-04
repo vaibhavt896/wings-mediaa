@@ -24,10 +24,10 @@ const services = [
 ];
 
 const social = [
-  { href: 'https://instagram.com/wingsmediaa', label: 'Instagram' },
-  { href: 'https://facebook.com/wingsmediaa', label: 'Facebook' },
-  { href: 'https://linkedin.com/company/wingsmediaa', label: 'LinkedIn' },
-  { href: 'mailto:hello@wingsmediaa.com', label: 'Email' },
+  { href: null, label: 'Instagram' },
+  { href: null, label: 'Facebook' },
+  { href: null, label: 'LinkedIn' },
+  { href: 'mailto:contact@wingsmediaa.com', label: 'Email' },
 ];
 
 export default function Footer() {
@@ -94,15 +94,19 @@ export default function Footer() {
             </div>
             <ul className="flex flex-col gap-s3">
               {social.map((s) => (
-                <li key={s.href}>
-                  <a
-                    href={s.href}
-                    target={s.href.startsWith('http') ? '_blank' : undefined}
-                    rel={s.href.startsWith('http') ? 'noreferrer noopener' : undefined}
-                    className="text-bone/80 hover:text-crimson transition-colors text-body-m"
-                  >
-                    {s.label}
-                  </a>
+                <li key={s.label}>
+                  {s.href ? (
+                    <a
+                      href={s.href}
+                      target={s.href.startsWith('http') ? '_blank' : undefined}
+                      rel={s.href.startsWith('http') ? 'noreferrer noopener' : undefined}
+                      className="text-bone/80 hover:text-crimson transition-colors text-body-m"
+                    >
+                      {s.label}
+                    </a>
+                  ) : (
+                    <span className="text-bone/40 text-body-m cursor-default">{s.label}</span>
+                  )}
                 </li>
               ))}
             </ul>
@@ -117,7 +121,7 @@ export default function Footer() {
               <LiveClock className="text-bone tabular-nums" /> · KANPUR
             </span>
             <span>● LIVE · KANPUR</span>
-            <span className="hidden md:inline">● NOW WORKING WITH SOLITAIRE & SKIN MANTRAA</span>
+            <span className="hidden md:inline">● ACTIVELY TAKING ON NEW BRANDS</span>
           </div>
           <div className="flex items-center gap-s5">
             <span>© {new Date().getFullYear()} Wings Mediaa</span>

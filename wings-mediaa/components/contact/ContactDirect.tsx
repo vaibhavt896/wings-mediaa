@@ -20,11 +20,11 @@ export default function ContactDirect() {
             Email
           </div>
           <a
-            href="mailto:hello@wingsmediaa.com"
+            href="mailto:contact@wingsmediaa.com"
             className="font-display font-bold text-d-m text-bone tracking-[-0.01em] hover:text-crimson border-b border-mute hover:border-crimson transition-colors duration-200 inline-block leading-[1.2]"
             data-cur="link"
           >
-            hello@wingsmediaa.com
+            contact@wingsmediaa.com
           </a>
           <p className="mt-s2 font-mono text-[11px] tracking-[0.14em] uppercase text-mute">
             For detailed briefs and partnerships.

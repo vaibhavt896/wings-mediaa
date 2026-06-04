@@ -1,7 +1,5 @@
 import Preloader from '@/components/Preloader';
 import HeroBeat from '@/components/home/HeroBeat';
-import ProofMarquee from '@/components/home/ProofMarquee';
-import SelectedWork from '@/components/home/SelectedWork';
 import NumbersBeat from '@/components/home/NumbersBeat';
 import ProblemBeat from '@/components/home/ProblemBeat';
 import ShiftBeat from '@/components/home/ShiftBeat';
@@ -34,8 +32,7 @@ export default function HomePage() {
     <>
       <Preloader />
       <HeroBeat />
-      <ProofMarquee />
-      <SelectedWork />
+      {/* ProofMarquee and SelectedWork hidden until client list is ready */}
       <NumbersBeat />
       <ProblemBeat />
       <ShiftBeat />
