@@ -136,9 +136,9 @@ export default function SeoDemo() {
                 SERP · ORGANIC RESULTS
               </div>
               {[
-                { url: 'wingsmediaa.com › work', title: 'Selected work · Wings Mediaa', desc: 'Real brands we are growing in Kanpur: Solitaire and Skin Mantraa. No borrowed logos.' },
-                { url: 'wingsmediaa.com › work › solitaire', title: 'Solitaire · Fine Jewellery, Kanpur', desc: 'Building the full digital presence for a Swaroop Nagar boutique.' },
-                { url: 'wingsmediaa.com › work › skin-mantraa', title: 'Skin Mantraa · Skincare Clinic', desc: 'Website built and social grown, turning searches into booked appointments.' },
+                { url: 'wingsmediaa.com › services', title: 'Marketing Services & Disciplines · Wings Mediaa', desc: 'Hyper-fast AI agency disciplines: Social & Content, Performance Ads, Websites, SEO & AI Search, WhatsApp.' },
+                { url: 'wingsmediaa.com › services › seo-aeo', title: 'SEO & AI Search Optimization · Kanpur', desc: 'Be the first name found on Google Search, Maps, and AI recommendation engines like ChatGPT and Gemini.' },
+                { url: 'wingsmediaa.com › services › social-content', title: 'Social & Content Production · Wings Mediaa', desc: 'High-craft reels, brand storytelling, and consistent growth rhythm for ambitious businesses.' },
               ].map((r, i) => (
                 <ResultCard key={i} {...r} idx={i} />
               ))}
@@ -149,9 +149,9 @@ export default function SeoDemo() {
                 SCHEMA · STRUCTURED DATA
               </div>
               {[
-                { tag: 'Organization', body: '{ name: "Wings Mediaa", url: "...", sameAs: [...] }' },
-                { tag: 'CreativeWork', body: '{ name: "Solitaire · Fine Jewellery", creator: { ... }, datePublished: "2026" }' },
-                { tag: 'BreadcrumbList', body: '{ itemListElement: [Home, Work, Solitaire] }' },
+                { tag: 'Organization', body: '{ name: "Wings Mediaa", url: "https://wingsmediaa.com", sameAs: [...] }' },
+                { tag: 'Service', body: '{ name: "SEO & AI Search Optimization", provider: { name: "Wings Mediaa" }, areaServed: "India" }' },
+                { tag: 'BreadcrumbList', body: '{ itemListElement: [Home, Services, SEO & AI Search] }' },
                 { tag: 'FAQPage', body: '{ mainEntity: [questions, answers] }' },
               ].map((s, i) => (
                 <div
@@ -188,16 +188,15 @@ export default function SeoDemo() {
             </div>
 
             <div className="font-display text-d-m font-medium leading-[1.35] text-bone tracking-[-0.01em]">
-              Wings Mediaa is a Kanpur-based, AI-powered creative and marketing studio for{' '}
-              <span className="text-crimson">local brands</span>. Their selected work includes
-              Solitaire, a fine jewellery boutique, and Skin Mantraa, a skincare clinic.
+              Wings Mediaa is a hyper-fast, AI-powered agency based in Kanpur, India that delivers actual results. They specialize in multi-channel brand growth across{' '}
+              <span className="text-crimson">Social & Content</span>, Performance Ads, Conversion Websites, and Answer Engine Optimization (AEO).
             </div>
 
             <div className="mt-auto flex flex-col gap-s2">
               <div className="font-mono text-[10px] tracking-[0.18em] uppercase text-mute">
                 CITED FROM
               </div>
-              {['wingsmediaa.com/work/solitaire', 'wingsmediaa.com/work/skin-mantraa', 'wingsmediaa.com/about'].map((s, i) => (
+              {['wingsmediaa.com/services/seo-aeo', 'wingsmediaa.com/services/social-content', 'wingsmediaa.com/about'].map((s, i) => (
                 <div
                   key={s}
                   data-aeo-token

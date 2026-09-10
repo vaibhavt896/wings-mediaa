@@ -3,7 +3,6 @@ import { Inter, Instrument_Serif, JetBrains_Mono } from 'next/font/google';
 import LenisProvider from './providers/lenis-provider';
 import Nav from '@/components/Nav';
 import Footer from '@/components/Footer';
-import DevBanner from '@/components/DevBanner';
 import { site } from '@/lib/seo/site';
 import { JsonLd, organizationJsonLd, websiteJsonLd } from '@/lib/seo/jsonld';
 import '@/styles/globals.css';
@@ -39,7 +38,7 @@ const jetbrains = JetBrains_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: `${site.name} · AI-Powered Marketing & Creative Studio, Kanpur`,
+    default: `${site.name} · Hyper-Fast AI-Powered Agency That Delivers Actual Results, Kanpur`,
     template: `%s · ${site.name}`,
   },
   description: site.description,
@@ -47,7 +46,8 @@ export const metadata: Metadata = {
   applicationName: site.name,
   keywords: [
     'Marketing agency Kanpur',
-    'AI marketing studio',
+    'AI marketing agency',
+    'Hyper-fast marketing agency',
     'Social media marketing Kanpur',
     'Performance ads Kanpur',
     'Website design Kanpur',
@@ -63,12 +63,12 @@ export const metadata: Metadata = {
     locale: site.locale,
     url: site.url,
     siteName: site.name,
-    title: `${site.name} · AI-Powered Marketing & Creative Studio, Kanpur`,
+    title: `${site.name} · Hyper-Fast AI-Powered Agency That Delivers Actual Results, Kanpur`,
     description: site.tagline,
   },
   twitter: {
     card: 'summary_large_image',
-    title: `${site.name} · AI-Powered Marketing & Creative Studio, Kanpur`,
+    title: `${site.name} · Hyper-Fast AI-Powered Agency That Delivers Actual Results, Kanpur`,
     description: site.tagline,
     creator: '@wingsmediaa',
   },
@@ -112,7 +112,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <a href="#main" className="skip-link">
           Skip to content
         </a>
-        <DevBanner />
         <LenisProvider>
           <Nav />
           <main id="main">{children}</main>

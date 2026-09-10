@@ -6,7 +6,7 @@ import Button from '@/components/Button';
 export const metadata: Metadata = {
   title: 'Services',
   description:
-    'Social, performance ads, websites, SEO & AI search, WhatsApp automation and branding. One studio, built to get your brand chosen.',
+    'Social, performance ads, websites, SEO & AI search, WhatsApp automation and branding. A hyper-fast AI-powered agency built to deliver actual results.',
 };
 
 /**
@@ -27,7 +27,7 @@ export default function ServicesIndexPage() {
             INDEX · SERVICES
           </div>
           <h1 className="font-display font-extrabold text-xxl leading-[0.92] tracking-[-0.04em] text-bone">
-            One studio. <span className="ital">Six</span>
+            One agency. <span className="ital">Six</span>
             <br />
             disciplines.
           </h1>
@@ -107,8 +107,8 @@ export default function ServicesIndexPage() {
           <Button variant="primary" href="/contact">
             Start a project →
           </Button>
-          <Button variant="ghost" href="/work">
-            See the work
+          <Button variant="ghost" href="/about">
+            About the agency
           </Button>
         </div>
       </section>

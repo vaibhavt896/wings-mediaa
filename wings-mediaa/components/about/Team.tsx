@@ -52,7 +52,7 @@ export default function Team({ members }: TeamProps) {
             </h2>
           </div>
           <p className="max-w-[400px] text-body-m text-bone/65 leading-[1.6]">
-            A focused studio where creative, strategy, and technology work as one team on your brand. No handoffs to juniors. No lost context. Just the right people, built around your growth.
+            A hyper-fast AI-powered agency where creative, strategy, and technology work as one team on your brand. No handoffs to juniors. No lost context. Pure speed and actual results.
           </p>
         </div>
 

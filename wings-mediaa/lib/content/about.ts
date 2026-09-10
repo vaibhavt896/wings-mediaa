@@ -44,7 +44,7 @@ export const about: AboutContent = {
   hero: {
     eyebrow: 'ABOUT',
     line: 'We exist to make ambitious brands impossible to ignore.',
-    sub: 'A focused studio of creatives, strategists, and technologists. AI-powered and built for the way people actually choose a jeweller, a clinic, a boutique. The truth, told well, is the whole brand.',
+    sub: 'A hyper-fast, AI-powered agency of strategists, creatives, and growth technologists. Built to give ambitious brands actual results, dominant visibility, and measurable return.',
   },
 
   // Display XXL char-reveal manifesto pull
@@ -56,8 +56,8 @@ export const about: AboutContent = {
     paragraphs: [
       'Wings Mediaa began with a clear observation.',
       'Across Kanpur, exceptional businesses, jewellers, clinics, boutiques, restaurants, were being out-marketed by lesser ones. Not beaten on quality. Beaten on visibility. The brands that knew how to be seen were winning customers they had not earned.',
-      'The studios that could fix it sat in the metros, charging metro prices and treating smaller brands as smaller accounts.',
-      'So we built the studio we wished existed: AI-powered, so the work is world-class without the world-class bill. Local, so the strategy actually fits the market. And founder-led, so you reach the person whose name is on your results.',
+      'The slow agencies that claimed they could fix it sat in the metros, charging metro prices, moving at snail speed, and delivering vague reports instead of actual results.',
+      'So we built the agency we wished existed: hyper-fast, AI-powered, and obsessed with actual results. Local, so the strategy fits your market. And founder-led, so you reach the person accountable for your growth.',
     ],
   },
 
@@ -65,14 +65,14 @@ export const about: AboutContent = {
     {
       name: 'Vaibhav Tiwari',
       role: 'Co-founder & Creative Director',
-      bio: 'Vaibhav leads strategy and creative direction across every project. He built Wings Mediaa so ambitious local brands could access studio-grade marketing without metro-price waste. When you work with us, you work with the person whose name is on your results.',
+      bio: 'Vaibhav leads strategy and execution across every client account. He built Wings Mediaa as a hyper-fast, AI-powered agency so ambitious brands can get actual results without big-agency waste. When you work with us, your growth is personal.',
       accent: '#FF3D2E',
       location: 'KANPUR',
     },
     {
       name: 'Creative & Content',
       role: 'Storytelling · Video · Copy',
-      bio: 'Our creative team handles every touchpoint: scripts, visuals, social content, and brand voice. Studio-grade output built around what your specific audience actually responds to.',
+      bio: 'Our creative team moves at hyper-speed across every touchpoint: viral scripts, high-impact visuals, social content, and brand voice. High-performance output built around what actually converts.',
       accent: '#FF8C42',
       location: 'KANPUR',
     },
@@ -107,7 +107,7 @@ export const about: AboutContent = {
     blurb:
       'We take on a limited number of brands at a time. If you are serious about how yours is seen, the first conversation is free, direct, and zero-pressure.',
     primary: { label: 'Start your project →', href: '/contact' },
-    secondary: { label: 'See the work →', href: '/work' },
+    secondary: { label: 'Explore services →', href: '/services' },
   },
 
   locations: [

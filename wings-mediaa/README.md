@@ -1,6 +1,7 @@
 # Wings Mediaa — wings-mediaa
 
-The motion-led studio site. Next.js 15 (App Router) + Lenis + GSAP + Motion + view-transitions API.
+The motion-led AI-powered agency site. Next.js 15 (App Router) + Lenis + GSAP + Motion + view-transitions API.
+Built for speed, craft, and actual business results in Kanpur & beyond.
 
 ```
 Stack          Next.js 15 · React 18 · TypeScript · Tailwind 3

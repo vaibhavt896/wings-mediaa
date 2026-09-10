@@ -6,7 +6,7 @@ import { site } from '@/lib/seo/site';
  * 1200×630 brand card: ink canvas, crimson accent rule, wordmark, tagline, address strip.
  * Generated statically at build time (no `runtime = 'edge'` flag needed for static OG).
  */
-export const alt = `${site.name} · AI-Powered Marketing & Creative Studio, Kanpur`;
+export const alt = `${site.name} · Hyper-Fast AI-Powered Agency That Delivers Actual Results`;
 export const size = { width: 1200, height: 630 };
 export const contentType = 'image/png';
 
@@ -41,7 +41,7 @@ export default function Image() {
           }}
         >
           <div style={{ width: 56, height: 2, background: '#FF3D2E' }} />
-          <div>AI-POWERED STUDIO · KANPUR</div>
+          <div>HYPER-FAST AI AGENCY · KANPUR</div>
         </div>
 
         {/* Middle — headline */}

@@ -68,30 +68,12 @@ export const home = {
   hero: {
     lines: ['We make brands', 'impossible to ignore.'],
     italicWord: 'impossible',
-    sub: 'Wings Mediaa is the studio ambitious businesses trust to get found, get followed, and get chosen. Premium marketing, powered by AI, built to grow what you have already built.',
+    sub: 'Wings Mediaa is the hyper-fast, AI-powered agency ambitious businesses trust to get found, get chosen, and scale. High-speed execution, powered by AI, built to deliver actual results.',
   } satisfies HeroBlock,
 
-  proof: [
-    'SOLITAIRE · FINE JEWELLERY · SWAROOP NAGAR',
-    'SKIN MANTRAA · SKINCARE CLINIC · KANPUR',
-  ],
+  proof: [] as string[],
 
-  selectedWork: [
-    {
-      slug: 'solitaire',
-      title: 'Solitaire',
-      caption: '01 · FINE JEWELLERY · SWAROOP NAGAR',
-      indexLabel: 'CASE · 001',
-      accent: '#FF3D2E',
-    },
-    {
-      slug: 'skin-mantraa',
-      title: 'Skin Mantraa',
-      caption: '02 · SKINCARE CLINIC · KANPUR',
-      indexLabel: 'CASE · 002',
-      accent: '#E6FF3C',
-    },
-  ] satisfies CaseRef[],
+  selectedWork: [] as CaseRef[],
 
   numbers: [
     { value: 6, eyebrow: 'DISCIPLINES', label: 'SOCIAL · ADS · WEB · SEO · WHATSAPP · BRANDING' },
@@ -207,7 +189,7 @@ export const home = {
 
   whyUs: {
     eyebrow: 'WHY US',
-    heading: 'Studio-grade work. Built for your market. Powered by AI.',
+    heading: 'Hyper-fast execution. Built for your market. Actual results.',
     items: [
       {
         title: 'AI is our edge, and yours.',
@@ -264,8 +246,8 @@ export const home = {
         a: 'You deal directly with the people accountable for your results, and we work month to month. We earn the next month every month. No contract holds you. The work does.',
       },
       {
-        q: 'Is a studio expensive?',
-        a: 'AI is exactly why we can deliver premium work without premium overhead. There is a plan for most serious budgets. The free conversation finds yours.',
+        q: 'Is an AI-powered agency expensive?',
+        a: 'AI is exactly why we move hyper-fast and deliver actual results without bloated agency overhead. There is a plan for most serious budgets. The free conversation finds yours.',
       },
       {
         q: 'I do not understand all this online stuff.',
@@ -281,7 +263,7 @@ export const home = {
   cta: {
     heading: 'Get found. Get chosen.',
     primary: { label: 'Start your project', href: '/contact' },
-    secondary: { label: 'Message us on WhatsApp', href: 'https://wa.me/919999999999' },
+    secondary: { label: 'Message us on WhatsApp', href: 'https://wa.me/919580467746' },
   },
 };
 

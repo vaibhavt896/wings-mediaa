@@ -18,7 +18,7 @@ export default function ProcessBeat() {
           <span id="process-label">05 · THE PROCESS</span>
         </div>
         <h2 className="font-display font-bold text-d-l md:text-d-xl tracking-[-0.03em] leading-[1] text-bone">
-          Four <span className="ital">moves.</span> One studio.
+          Four <span className="ital">moves.</span> One agency.
         </h2>
       </div>
 
@@ -50,7 +50,7 @@ export default function ProcessBeat() {
             NO LOCK-INS · NO CONFUSION
           </div>
           <p className="font-display font-bold text-d-m text-bone tracking-[-0.02em] leading-[1.1]">
-            A studio that <span className="ital">stays with the work.</span>
+            An agency that <span className="ital">delivers actual results.</span>
           </p>
         </article>
       </PinScrub>

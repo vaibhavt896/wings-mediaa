@@ -45,9 +45,9 @@ export default function NotFound() {
 
         <nav aria-label="Recovery links" className="mt-s8 flex flex-col gap-s4 max-w-[44ch]">
           {[
-            { href: '/work', label: 'The work', sub: 'Real brands we are growing' },
-            { href: '/services', label: 'The services', sub: '6 disciplines, one studio' },
+            { href: '/services', label: 'The services', sub: '6 disciplines, one agency' },
             { href: '/about', label: 'About', sub: 'Who is making this' },
+            { href: '/contact', label: 'Contact', sub: 'Start your project' },
             { href: '/', label: 'Home', sub: 'Start at the top' },
           ].map((l) => (
             <Link

@@ -121,8 +121,8 @@ export default function HeroBeat() {
             <Button variant="primary" href="/contact">
               Start your project
             </Button>
-            <Button variant="secondary" href="/work">
-              See the work
+            <Button variant="secondary" href="/services">
+              Explore services
             </Button>
           </div>
         </div>

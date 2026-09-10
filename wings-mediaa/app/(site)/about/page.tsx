@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     'We make ambitious local brands impossible to ignore. Founder-led, AI-powered, honest marketing built for the way people actually choose. Kanpur.',
   openGraph: {
     title: 'About · Wings Mediaa',
-    description: 'Founder-led, AI-powered studio for ambitious local brands. Kanpur.',
+    description: 'Founder-led, hyper-fast AI-powered agency delivering actual results. Kanpur.',
   },
 };
 

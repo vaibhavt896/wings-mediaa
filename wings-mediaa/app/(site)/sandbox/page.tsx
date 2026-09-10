@@ -101,7 +101,7 @@ export default function Sandbox() {
             variant="mono"
             speed={60}
             reverse
-            items={['SOLITAIRE · FINE JEWELLERY', 'SKIN MANTRAA · SKINCARE CLINIC']}
+            items={['AURUM ATELIER · FINE JEWELLERY', 'LUMIÈRE CLINIC · DERMA & AESTHETICS']}
           />
         </div>
       </section>
@@ -112,7 +112,7 @@ export default function Sandbox() {
           <SectionLabel n="04" title="COUNT UP · METRIC" />
           <div className="grid grid-cols-1 md:grid-cols-3 gap-s7">
             <Metric value={2} eyebrow="REAL CLIENTS" label="KANPUR · 2026" />
-            <Metric value={6} eyebrow="SERVICES" label="ONE STUDIO" />
+            <Metric value={6} eyebrow="SERVICES" label="ONE AGENCY" />
             <Metric value={1} eyebrow="FOUNDER-LED" label="ACCOUNTABLE" />
           </div>
 
@@ -133,16 +133,16 @@ export default function Sandbox() {
           <SectionLabel n="05" title="CASE TILE" />
           <div className="grid grid-cols-1 md:grid-cols-2 gap-s7">
             <CaseTile
-              href="/work/solitaire"
-              title="Solitaire"
-              caption="01 · FINE JEWELLERY · SWAROOP NAGAR"
+              href="/work/aurum"
+              title="Aurum Atelier"
+              caption="01 · COUTURE & FINE JEWELLERY"
               indexLabel="CASE · 001"
               accent="#FF3D2E"
             />
             <CaseTile
-              href="/work/skin-mantraa"
-              title="Skin Mantraa"
-              caption="02 · SKINCARE CLINIC · KANPUR"
+              href="/work/lumiere"
+              title="Lumière Clinic"
+              caption="02 · CLINICAL AESTHETICS & DERMA"
               indexLabel="CASE · 002"
               accent="#E6FF3C"
             />

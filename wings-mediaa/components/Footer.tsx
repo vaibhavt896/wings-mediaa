@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import LiveClock from './LiveClock';
+import { site } from '@/lib/seo/site';
 
 /**
  * Footer per §06 page architecture.
@@ -8,7 +9,6 @@ import LiveClock from './LiveClock';
  */
 
 const sitemap = [
-  { href: '/work', label: 'Work' },
   { href: '/services', label: 'Services' },
   { href: '/about', label: 'About' },
   { href: '/contact', label: 'Contact' },
@@ -24,10 +24,10 @@ const services = [
 ];
 
 const social = [
-  { href: null, label: 'Instagram' },
+  { href: site.social.instagram, label: 'Instagram' },
   { href: null, label: 'Facebook' },
   { href: null, label: 'LinkedIn' },
-  { href: 'mailto:contact@wingsmediaa.com', label: 'Email' },
+  { href: `mailto:${site.email}`, label: 'Email' },
 ];
 
 export default function Footer() {
@@ -45,7 +45,7 @@ export default function Footer() {
               WINGS<span className="text-crimson mx-0.5">·</span>MEDIAA
             </Link>
             <p className="text-bone/60 text-body-m max-w-prose">
-              The AI-powered creative & marketing studio for brands that refuse to be ignored. Kanpur · Working with brands across India.
+              The hyper-fast, AI-powered agency that delivers actual results for brands that refuse to be ignored. Kanpur · Working with brands across India.
             </p>
           </div>
 

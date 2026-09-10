@@ -68,8 +68,8 @@ export default function Error({
           <Link href="/" data-cur="link" className="btn btn-secondary">
             Take me home
           </Link>
-          <Link href="/work" data-cur="link" className="btn btn-ghost">
-            See the work
+          <Link href="/services" data-cur="link" className="btn btn-ghost">
+            Explore services
           </Link>
         </div>
       </div>

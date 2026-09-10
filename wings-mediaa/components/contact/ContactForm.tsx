@@ -9,10 +9,11 @@ import { services } from '@/lib/content/services';
 import { cn } from '@/lib/utils';
 
 const BUDGETS = [
-  { value: 'under-5L', label: 'Under ₹5L' },
-  { value: '5-15L', label: '₹5L–₹15L' },
-  { value: '15-50L', label: '₹15L–₹50L' },
-  { value: '50L+', label: '₹50L+' },
+  { value: 'under-50k', label: 'Under ₹50k/mo' },
+  { value: '50k-1.5L', label: '₹50k–₹1.5L/mo' },
+  { value: '1.5-3L', label: '₹1.5L–₹3L/mo' },
+  { value: '3L+', label: '₹3L+/mo' },
+  { value: 'custom', label: 'Custom project' },
   { value: 'tbd', label: 'Not sure yet' },
 ] as const;
 
@@ -174,8 +175,8 @@ export default function ContactForm() {
           >
             Send another →
           </Button>
-          <Button variant="ghost" href="/work">
-            See the work
+          <Button variant="ghost" href="/services">
+            Explore services
           </Button>
         </div>
       </div>

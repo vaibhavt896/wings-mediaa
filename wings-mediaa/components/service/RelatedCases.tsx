@@ -50,24 +50,7 @@ export default function RelatedCases({
   }, []);
 
   if (related.length === 0) {
-    return (
-      <section
-        className={cn(
-          'px-5 md:px-9 py-s10 border-t',
-          light ? 'bg-bone text-ink border-hair-l' : 'bg-ink text-bone border-hair'
-        )}
-      >
-        <div className="container-page">
-          <p className={cn('font-mono text-[12px] tracking-[0.16em] uppercase', light ? 'text-ink/50' : 'text-mute')}>
-            No published cases for this service yet. Check{' '}
-            <Button variant="ghost" href="/work" noMagnet>
-              all work
-            </Button>{' '}
-            instead.
-          </p>
-        </div>
-      </section>
-    );
+    return null;
   }
 
   return (

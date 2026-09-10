@@ -36,13 +36,13 @@ export default function ContactDirect() {
             WhatsApp <span className="text-crimson normal-case tracking-[0.04em]">(fastest)</span>
           </div>
           <a
-            href="https://wa.me/919999999999"
+            href="https://wa.me/919580467746"
             target="_blank"
             rel="noreferrer noopener"
             className="font-display font-bold text-d-m text-bone tracking-[-0.01em] hover:text-crimson border-b border-mute hover:border-crimson transition-colors duration-200 inline-block leading-[1.2]"
             data-cur="link"
           >
-            +91 99999 99999
+            +91 95804 67746
           </a>
           <p className="mt-s2 font-mono text-[11px] tracking-[0.14em] uppercase text-mute">
             The quickest way to reach us. Usually a reply within a few hours.
@@ -59,9 +59,12 @@ export default function ContactDirect() {
           Prefer to talk? Reach us in working hours. The first conversation is free, direct, and
           zero-pressure.
         </p>
-        <div>
-          <Button variant="secondary" href="tel:+919999999999" external>
-            +91 99999 99999
+        <div className="flex flex-wrap gap-s3">
+          <Button variant="secondary" href="tel:+919580467746" external>
+            +91 95804 67746
+          </Button>
+          <Button variant="secondary" href="tel:+919897030027" external>
+            +91 98970 30027
           </Button>
         </div>
       </div>

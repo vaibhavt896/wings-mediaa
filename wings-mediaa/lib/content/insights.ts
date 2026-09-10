@@ -1,6 +1,6 @@
 /**
- * Insights — field notes from the studio.
- * Single chronological list with featured pins. No tag-heavy index.
+ * Insights — field notes from the agency.
+ * Long-form thinking on craft, AI, local business and the Kanpur market.
  *
  * `body` is a discriminated union of block types so the renderer can switch
  * cleanly. The Sanity migration uses Portable Text → same shape post-transform.
@@ -85,7 +85,7 @@ export const insights: Insight[] = [
     slug: 'we-stopped-using-stock',
     title: 'We stopped using stock, and our funnels caught fire.',
     kind: 'CASE NOTES',
-    author: 'Priya Menon',
+    author: 'Vaibhav Tiwari',
     publishedAt: '2026-04-08',
     readTime: 4,
     summary:
@@ -123,7 +123,7 @@ export const insights: Insight[] = [
     slug: 'the-1-2-second-loader',
     title: 'The 1.2-second loader is the most important second of your site.',
     kind: 'PROCESS',
-    author: 'Nikhil Bhattacharya',
+    author: 'Wings Mediaa',
     publishedAt: '2026-03-20',
     readTime: 5,
     summary:
