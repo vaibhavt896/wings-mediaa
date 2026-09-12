@@ -113,7 +113,7 @@ export default function Sandbox() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-s7">
             <Metric value={2} eyebrow="REAL CLIENTS" label="KANPUR · 2026" />
             <Metric value={6} eyebrow="SERVICES" label="ONE AGENCY" />
-            <Metric value={1} eyebrow="FOUNDER-LED" label="ACCOUNTABLE" />
+            <Metric value={1} eyebrow="LEADERSHIP" label="ACCOUNTABLE" />
           </div>
 
           <div className="mt-s8 flex items-baseline gap-s5">

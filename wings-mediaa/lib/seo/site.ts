@@ -9,7 +9,7 @@ export const site = {
   shortName: 'Wings · Mediaa',
   tagline: 'The hyper-fast, AI-powered agency that delivers actual results for brands that refuse to be ignored.',
   description:
-    'We make brands impossible to ignore. A hyper-fast AI-powered agency delivering actual results across social, performance ads, web, and AI search. Co-founder-led, Kanpur.',
+    'We make brands impossible to ignore. A hyper-fast AI-powered agency delivering actual results across social, performance ads, web, and AI search. Results-driven, Kanpur.',
   locale: 'en_IN',
   country: 'IN',
   email: 'contact@wingsmediaa.com',

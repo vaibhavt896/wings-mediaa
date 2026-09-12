@@ -77,7 +77,7 @@ export const home = {
 
   numbers: [
     { value: 6, eyebrow: 'DISCIPLINES', label: 'SOCIAL · ADS · WEB · SEO · WHATSAPP · BRANDING' },
-    { value: 100, suffix: '%', eyebrow: 'FOUNDER-LED', label: 'EVERY BRIEF PERSONALLY OWNED · NO HANDOFFS' },
+    { value: 100, suffix: '%', eyebrow: 'DIRECT LEADERSHIP', label: 'EVERY BRIEF PERSONALLY OWNED · NO JUNIOR HANDOFFS' },
     { placeholder: 'NOW', eyebrow: 'TAKING BRIEFS', label: 'KANPUR · SERVING BRANDS ACROSS INDIA' },
   ] as NumberBlock[],
 
